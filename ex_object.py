@@ -8,7 +8,6 @@ class Parrot():
         return f"Hello, my name is {self.name}, I'm {self.age} years old"
 
 parrot1 = Parrot('Ivan', 22, 80)
-parrot2 = Parrot('Andriy', 23, 90)
-parrot3 = Parrot('Varvara', 23, 56)
 
-print(parrot3.name)
+
+print(parrot1.name)
