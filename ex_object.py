@@ -9,5 +9,6 @@ class Parrot():
 
 parrot1 = Parrot('Ivan', 22, 80)
 parrot2 = Parrot('Andriy', 23, 90)
+parrot3 = Parrot('Varvara', 23, 56)
 
-print(parrot1.age)
+print(parrot3.name)
