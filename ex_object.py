@@ -10,5 +10,9 @@ class Parrot():
 parrot1 = Parrot('Ivan', 22, 80)
 parrot2 = Parrot('Andriy', 23, 90)
 parrot3 = Parrot('Varvara', 23, 56)
+parrot4 = Parrot('Igor', 23, 45)
 
-print(parrot3.name)
+all = [parrot1, parrot2, parrot3, parrot4]
+
+for item in all:
+    print(item.name)
